@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ClassFileReaderBufferedReader {
+public class ClassFileReader {
 
 	 public static void main(String[] args) {
 		
