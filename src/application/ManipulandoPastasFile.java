@@ -26,8 +26,10 @@ public class ManipulandoPastasFile {
 			System.out.println(file);
 		}
 		
-		boolean sucess = new File(strPath + "\\subdir").mkdirs();
-		System.out.println("Directory created sucessfully: " + sucess);
+		
+		 boolean sucess = new File(strPath + "\\subdir").mkdirs();
+		 System.out.println("Directory created sucessfully: " + sucess);
+		 
 		
 		sc.close();
 	}

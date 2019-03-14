@@ -4,11 +4,11 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ClassFileReader {
+public class FileReaderBufferedReaderEnxuta {
 
 	 public static void main(String[] args) {
 		
-		String path = "C:\\Users\\Usuario\\Documents\\in.txt";
+		String path = "C:\\Users\\Usuario\\Documents\\sec.txt";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 			String line = br.readLine();
